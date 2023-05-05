@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: #005a00;
-    --secondary-color: #008080;
+    --secondary-color: #7ddbdb;
     --border-color: #ddd;
 }
 
@@ -27,13 +27,6 @@ h1 {
 h2 {
     font-size: 32px;
     margin: 16px;
-}
-
-button {
-    padding: 12px;
-    background-color: var(--primary-color);
-    color: white;
-    border-radius: 8px;
 }
 
 header {
@@ -123,12 +116,12 @@ p {
 }
 
 form {
-    height: 50vh;
-    width: 40vw;
-    background-color: pink;
+    width: 25vw;
+    /* background-color: pink; */
     margin: auto;
     padding: 16px;
     border: 1px solid var(--border-color);
+    text-align: center;
 }
 
 input[type="text"],
@@ -140,6 +133,24 @@ input[type="email"] {
     font-size: 12px;
     padding: 8px;
 }
+
+label {
+    display: inline-block;
+    width: 125px;
+    text-align: left;
+}
+
+button {
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: var(--primary-color);
+    color: white;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    margin-top: 24px;
+    height: 36px;
+}
+
 
 footer {
     bottom: 0;
