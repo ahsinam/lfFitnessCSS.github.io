@@ -100,6 +100,7 @@ p {
 #fitnessData {
     border-collapse: collapse;
     width: 80vw;
+    margin: 16px auto;
     padding: 0 10vw;
 }
 
@@ -117,8 +118,7 @@ p {
 
 form {
     width: 25vw;
-    /* background-color: pink; */
-    margin: auto;
+    margin: 10px auto;
     padding: 16px;
     border: 1px solid var(--border-color);
     text-align: center;
@@ -157,4 +157,8 @@ footer {
     padding: 16px;
     text-align: center;
     background-color: var(--secondary-color)
+}
+
+.data {
+    float: left;
 }
